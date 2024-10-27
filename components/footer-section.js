@@ -111,18 +111,18 @@ export default function FooterSection({ mainMenu }) {
                   </strong>
                 </div>
                 <p href="#" class="footer-link hotline">
-                Phone number: <strong> 08 9991 9928</strong>
+                Phone number: <strong>+44 1229 9896724.</strong>
                 </p>
                 <p href="#" class="footer-link hotline">
                   Email: <strong> finance.exness.trade@gmail.com</strong>
                 </p>
-                <p href="#" class="footer-link hotline_w">
+                {/* <p href="#" class="footer-link hotline_w">
                   Mã số doanh nghiệp: 0316552631 do Sở Kế Hoạch &amp; Đầu tư TP.
                   Hồ Chí Minh cấp ngày 23/10/2020.
-                </p>
+                </p> */}
                 <p href="#" class="footer-link hotline_w">
-                  Địa chỉ văn phòng: <br />
-                  308 Điện Biên Phủ, Phường 04, Q.3, TP. Hồ Chí Minh, Việt Nam.
+                  Office address: <br />
+                  107 Cheapside, London, EC2V 6DN, United Kingdom
                 </p>
               </div>
             </div>
