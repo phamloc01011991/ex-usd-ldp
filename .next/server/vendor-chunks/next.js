@@ -42,6 +42,16 @@ eval("/**\n * Hoists a name from a module or promised module.\n *\n * @param mod
 
 /***/ }),
 
+/***/ "./node_modules/next/font/local/target.css?{\"path\":\"pages/android.js\",\"import\":\"\",\"arguments\":[{\"src\":\"../public/font/open-san/OpenSans-VariableFont_wdth,wght.ttf\"}],\"variableName\":\"myFont\"}":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/font/local/target.css?{"path":"pages/android.js","import":"","arguments":[{"src":"../public/font/open-san/OpenSans-VariableFont_wdth,wght.ttf"}],"variableName":"myFont"} ***!
+  \*****************************************************************************************************************************************************************************************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"style\": {\"fontFamily\":\"'__myFont_d034ce', '__myFont_Fallback_d034ce'\"},\n\t\"className\": \"__className_d034ce\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9mb250L2xvY2FsL3RhcmdldC5jc3M/e1wicGF0aFwiOlwicGFnZXMvYW5kcm9pZC5qc1wiLFwiaW1wb3J0XCI6XCJcIixcImFyZ3VtZW50c1wiOlt7XCJzcmNcIjpcIi4uL3B1YmxpYy9mb250L29wZW4tc2FuL09wZW5TYW5zLVZhcmlhYmxlRm9udF93ZHRoLHdnaHQudHRmXCJ9XSxcInZhcmlhYmxlTmFtZVwiOlwibXlGb250XCJ9IiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQSxXQUFXLDZEQUE2RDtBQUN4RTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbmV4dGpzLWV4bmVzcy8uL25vZGVfbW9kdWxlcy9uZXh0L2ZvbnQvbG9jYWwvdGFyZ2V0LmNzcz8wOWUyIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcInN0eWxlXCI6IHtcImZvbnRGYW1pbHlcIjpcIidfX215Rm9udF9kMDM0Y2UnLCAnX19teUZvbnRfRmFsbGJhY2tfZDAzNGNlJ1wifSxcblx0XCJjbGFzc05hbWVcIjogXCJfX2NsYXNzTmFtZV9kMDM0Y2VcIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/next/font/local/target.css?{\"path\":\"pages/android.js\",\"import\":\"\",\"arguments\":[{\"src\":\"../public/font/open-san/OpenSans-VariableFont_wdth,wght.ttf\"}],\"variableName\":\"myFont\"}\n");
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/client/add-base-path.js":
 /*!********************************************************!*\
   !*** ./node_modules/next/dist/client/add-base-path.js ***!

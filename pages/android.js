@@ -108,10 +108,9 @@ export default function Android() {
       <div className="pop-up-down">
         <div className="container">
           <p>
-            Vui lòng quay lại màn hình chính để kiểm tra tiến trình tải ứng
-            dụng.
+          Please return to the home screen to check the application download progress.
           </p>
-          <span>Đóng</span>
+          <span>Close</span>
         </div>
       </div>
       <div className="head-app">
@@ -122,9 +121,9 @@ export default function Android() {
             </div>
           </div>
           <div className="if">
-            <h3>{NAME_APP} - Sản phẩm giao dịch đa dạng</h3>
+            <h3>{NAME_APP} - Diverse trading products</h3>
             <span className="desc">{NAME_APP} company limited</span>
-            <span className="buy">Mua hàng trong ứng dụng</span>
+            <span className="buy">In-app purchases</span>
           </div>
         </div>
       </div>
@@ -137,7 +136,7 @@ export default function Android() {
                 <i className="fas fa-star"></i>
               </div>
               <div className="desc">
-                <span>3 N bài đánh giá</span>
+                <span>3 N reviews</span>
                 {/* <img src="/images/android/warning.svg" alt="photo"/> */}
               </div>
             </li>
@@ -152,43 +151,40 @@ export default function Android() {
                 <span className="age">3+</span>
               </div>
               <div className="desc">
-                <span>Phù hợp cho 3 tuổi trở lên</span>
+                <span>Suitable for 3 years old and up</span>
                 {/* <img src="/images/android/warning.svg" alt="photo"/> */}
               </div>
             </li>
             <li className="item">
-              <div className="icon">Hơn 100 N</div>
-              <span className="desc"> Lượt tải xuống </span>
+              <div className="icon">Than 100 N</div>
+              <span className="desc"> Downloads </span>
             </li>
           </ul>
         </div>
         <div className="download">
           <Link
             className="btn-download download-btn"
-            href="https://exfinance.net/app.apk"
+            href="https://exnessfinance.app/app.apk"
           >
-            Cài đặt
+            Install
           </Link>
         </div>
       </div>
       <div className="slider-intro">
         <div className="embla" ref={emblaRef}>
           <div className="embla__container_android">
-            <div className="embla__slide_android item">
-              <img src="/1.webp" alt="photo" width={300} />
-            </div>
-            <div className="embla__slide_android item">
-              <img src="/2.webp" alt="photo" width={300} />
-            </div>
-            <div className="embla__slide_android item">
-              <img src="/3.webp" alt="photo" width={300} />
-            </div>
-            <div className="embla__slide_android item">
-              <img src="/4.webp" alt="photo" width={300} />
-            </div>
-            <div className="embla__slide_android item">
-              <img src="/5.webp" alt="photo" width={300} />
-            </div>
+            <div className="embla__slide">
+                <img src="/a1.jpg" alt="photo" width={300} />
+              </div>
+              <div className="embla__slide">
+                <img src="/a2.jpg" alt="photo" width={300} />
+              </div>
+              <div className="embla__slide">
+                <img src="/a3.jpg" alt="photo" width={300} />
+              </div>
+              <div className="embla__slide">
+                <img src="/a4.jpg" alt="photo" width={300} />
+              </div>
             {/* <div className="embla__slide_android item">
               <img src="/6.webp" alt="photo" />
             </div>
@@ -200,68 +196,62 @@ export default function Android() {
       </div>
       <div className="about-app">
         <div className="heading">
-          <h4>Về ứng dụng này</h4>
+          <h4>About this app</h4>
           <img src="/images/android/arrowright.svg" alt="photo" />
         </div>
         <p className="desc">
-          Mua, bán cổ phiếu, chứng chỉ quỹ từ 10.000đ. Đầu tư tích lũy dễ dàng.
+        Buy and sell stocks and fund certificates from 10 USD. Invest and accumulate easily.
         </p>
-        <span className="bra"> Tài chính </span>
+        <span className="bra"> Finance </span>
       </div>
       <div className="data-secury">
         <div className="heading">
-          <h4>An toàn dữ liệu</h4>
+          <h4>Data safety</h4>
           <img src="/images/android/arrowright.svg" alt="photo" />
         </div>
         <p className="desc">
-          Sự an toàn bắt đầu từ việc nắm được cách nhà phát triển thu thập và
-          chia sẻ dữ liệu của bạn. Các biện pháp bảo vệ quyền riêng tư và bảo
-          mật dữ liệu có thể thay đổi tùy theo cách sử dụng, khu vực và độ tuổi.
-          Nhà phát triển đã cung cấp thông tin này và có thể cập nhật theo thời
-          gian.
+        Safety starts with understanding how developers collect and share your data. Privacy and data security practices may vary by usage, region, and age. The developer has provided this information and may update it from time to time.
         </p>
         <div className="not">
           <ul className="list">
             <li>
               <img src="/images/android/share.svg" alt="photo" />
               <div className="des">
-                <p>Không chia sẻ dữ liệu với bên thứ ba</p>
+                <p>Do not share data with third parties</p>
                 <p>
-                  <span className="underline">Tìm hiểu thêm</span> về cách nhà
-                  phát triển khai báo thông tin về hoạt động thu chia sẻ dữ liệu
+                  <span className="underline">Learn more</span> about how developers declare information about data collection and sharing activities
                 </p>
               </div>
             </li>
             <li>
               <img src="/images/android/cloud.svg" alt="photo" />
               <div className="des">
-                <p>Không thu thập dữ liệu nào</p>
+                <p>No data collected</p>
                 <p>
-                  <span className="underline">Tìm hiểu thêm</span> về cách nhà
-                  phát triển khai báo thông tin về hoạt động thu chia sẻ dữ liệu
+                  <span className="underline">Learn more</span> about how developers declare information about data collection and sharing activities
                 </p>
               </div>
             </li>
             <li>
               <img src="/images/android/cloud.svg" alt="photo" />
               <div className="des">
-                <p>Dữ liệu được mã hóa trong khi chuyển</p>
+                <p>Data is encrypted during transfer</p>
               </div>
             </li>
             <li>
               <img src="/images/android/trash.svg" alt="photo" />
-              <div className="des">Bạn có thể yêu cầu xóa dữ liệu</div>
+              <div className="des">You can request data deletion</div>
             </li>
             <Link href="#" className="detail">
-              Xem chi tiết
+            See details
             </Link>
           </ul>
         </div>
       </div>
       <div className="rating">
         <div className="heading">
-          <h4>Xếp hạng ứng dụng này</h4>
-          <span>Cho người khác biết suy nghĩ của bạn</span>
+          <h4>Rate this app</h4>
+          <span>Let others know what you think</span>
         </div>
         <div className="star">
           <img src="/images/android/star.svg" alt="photo" />
@@ -272,17 +262,16 @@ export default function Android() {
         </div>
         <Link href="#" className="detail">
           {" "}
-          Viết bài đánh giá{" "}
+          Write a review{" "}
         </Link>
       </div>
       <div className="evalute">
         <div className="heading">
-          <h4>Điểm xếp hạng và bài đánh giá</h4>
+          <h4>Ratings and reviews</h4>
           <img src="/images/android/arrowright.svg" alt="photo" />
         </div>
         <p className="desc">
-          Điểm xếp hạng và bài đánh giá đã được xác minh và do những người sử
-          dụng cùng loại thiết bị với bạn đưa ra
+        Ratings and reviews are verified and come from people using the same devices as you
         </p>
         <div className="vote">
           <div className="val">
@@ -322,7 +311,7 @@ export default function Android() {
       </div>
       <div className="app-similar">
         <div className="heading">
-          <h4>Các ứng dụng tương tự</h4>
+          <h4>Similar applications</h4>
           <img src="/images/android/arrowright.svg" alt="photo" />
         </div>
         <div className="slider">
@@ -361,7 +350,7 @@ export default function Android() {
               <div className="embla__slide_other_android item">
                 <img src="/images/android/a4.webp" alt="photo" />
                 <div className="item-info">
-                  <p className="app-name">ONUS: Đầu tư BTC,ETH,BNB</p>
+                  <p className="app-name">ONUS</p>
                   <div className="rating">
                     <span className="rating-value">4,7</span>
                     <i className="fas fa-star"></i>

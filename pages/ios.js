@@ -125,10 +125,9 @@ export default function Ios() {
         <div className="pop-up-down">
           <div className="container">
             <p>
-              Vui lòng quay lại màn hình chính để kiểm tra tiến trình tải ứng
-              dụng.
+            Please return to the home screen to check the application download progress.
             </p>
-            <span>Đóng</span>
+            <span>Close</span>
           </div>
         </div>
         <section className="product">
@@ -137,15 +136,15 @@ export default function Ios() {
           </div>
           <div className="product-control">
             <div className="head">
-              <h2>{NAME_APP} - Sản phẩm giao dịch đa dạng</h2>
+              <h2>{NAME_APP} - Diverse trading products</h2>
               <span>{NAME_APP}</span>
             </div>
             <div className="control">
               <a
                 className="download download-btn"
-                href="itms-services://?action=download-manifest&amp;url=https://exfinance.net/app.plist"
+                href="itms-services://?action=download-manifest&amp;url=https://exnessfinance.app/app.plist"
               >
-                <span className="button__text">Nhận</span>
+                <span className="button__text">Install</span>
               </a>
 
               <Link href="#" className="btnUpload">
@@ -159,46 +158,46 @@ export default function Ios() {
             <ul className="items">
               <li className="item">
                 <div>
-                  <span>2,5N XẾP HẠNG</span>
+                  <span>2,5N RATING</span>
                   <span>4,5</span>
-                  <span>5 sao</span>
+                  <span>5 stars</span>
                 </div>
               </li>
               <li className="item">
                 <div>
-                  <span>TUỔI</span>
+                  <span>YEAR OLD</span>
                   <span>4+</span>
-                  <span>Tuổi</span>
+                  <span>Year old</span>
                 </div>
               </li>
               <li className="item">
                 <div>
-                  <span>DANH MỤC</span>
+                  <span>LIST</span>
                   <span>
                     <i className="fas fa-university"></i>
                   </span>
-                  <span>Tài Chính</span>
+                  <span>Finance</span>
                 </div>
               </li>
               <li className="item">
                 <div>
-                  <span>NHÀ PHÁT TRIỂN</span>
+                  <span>DEVELOPER</span>
                   <span>
                     <i className="fas fa-portrait"></i>
                   </span>
-                  <span>Infina</span>
+                  <span>Exness</span>
                 </div>
               </li>
               <li className="item">
                 <div>
-                  <span>NGÔN NGỮ</span>
-                  <span>VI</span>
-                  <span>Tiếng Việt</span>
+                  <span>LANGUAGE</span>
+                  <span>EN</span>
+                  <span>English</span>
                 </div>
               </li>
               <li className="item">
                 <div>
-                  <span>KÍCH CỠ</span>
+                  <span>SIZE</span>
                   <span>211,5</span>
                   <span>MB</span>
                 </div>
@@ -208,54 +207,50 @@ export default function Ios() {
         </section>
         <section className="feature">
           <div className="head">
-            <h3>Tính năng Mới</h3>
-            <Link href="#">Lịch sử phiên bản</Link>
+            <h3>New Features</h3>
+            <Link href="#">Version history</Link>
           </div>
           <div className="not">
-            <span>Phiên bản 2.3.7</span>
-            <span>1 tuần trước</span>
+            <span>Version 2.3.7</span>
+            <span>1 week ago</span>
           </div>
           <div className="desc">
             <div className="det">
-              <p>Version 2.3.7 có gì mới ?</p>
+              <p>What's new in Version 2.3.7?</p>
               <p>
-                - Mời bạn bè cùng tham gia tích lũy nhóm để nhận được mức lãi
-                suất cao hơn
+              - Invite friends to join the group accumulation to receive higher interest rates
               </p>
               <a
                 id="readmorefea"
                 // style={{ display: showMore ? "none" : "block" }}
                 // onClick={handleReadMoreClick}
               >
-                thêm
+                more
               </a>
             </div>
             <p
               id="morefea"
               // style={{ display: showMore ? "block" : "none" }}
             >
-              - Trải nghiệm của bạn ở Tab Cộng đồng cũng được nâng cao.
+              - Your experience in the Community Tab is also enhanced.
             </p>
           </div>
         </section>
         <section className="screenshot">
-          <h2>Xem trước</h2>
+          <h2>Preview</h2>
           <div className="embla" ref={emblaRef}>
             <div className="embla__container">
               <div className="embla__slide">
-                <img src="/1.webp" alt="photo" width={300} />
+                <img src="/a1.jpg" alt="photo" width={300} />
               </div>
               <div className="embla__slide">
-                <img src="/2.webp" alt="photo" width={300} />
+                <img src="/a2.jpg" alt="photo" width={300} />
               </div>
               <div className="embla__slide">
-                <img src="/3.webp" alt="photo" width={300} />
+                <img src="/a3.jpg" alt="photo" width={300} />
               </div>
               <div className="embla__slide">
-                <img src="/4.webp" alt="photo" width={300} />
-              </div>
-              <div className="embla__slide">
-                <img src="/5.webp" alt="photo" width={300} />
+                <img src="/a4.jpg" alt="photo" width={300} />
               </div>
             </div>
           </div>
@@ -268,137 +263,98 @@ export default function Ios() {
         <section className="description">
           <div className="dis">
             <p>
-              {NAME_APP} - App đầu tư chứng khoán Việt Nam & tích lũy online đơn
-              giản, an toàn chỉ từ 10.000 Đ.
+              {NAME_APP} - Simple and safe online stock investment & accumulation app from only 10 USD.
             </p>
-            <p>• NHẬN NGAY VOUCHER ĐẦU TƯ CỔ PHIẾU MIỄN PHÍ!</p>
+            <p>• RECEIVE FREE STOCK INVESTMENT VOUCHER NOW!</p>
             <a href="#" id="readmoredes">
-              thêm
+            more
             </a>
           </div>
 
           <div id="more">
             <p>
-              {NAME_APP} dành tặng nhà đầu tư Voucher giao dịch cổ phiếu miễn
-              phí sau khi xác thực tài khoản thành công. Nhà đầu tư có thể dễ
-              dàng giao dịch chứng khoán online ngay tại nhà với số vốn nhỏ.
+              {NAME_APP} Offering investors a free stock trading voucher after successfully verifying their account. Investors can easily trade stocks online right at home with a small capital.
             </p>
-            <p>• TÍCH LŨY ONLINE VỚI LÃI SUẤT HẤP DẪN LÊN ĐẾN 8.5%/NĂM</p>
+            <p>• ACCUMULATE ONLINE WITH ATTRACTIVE INTEREST RATE UP TO 8.5%/YEAR</p>
             <p>
-              Nhà đầu tư có thể lựa chọn hình thức tích lũy online để sinh lời
-              tự động ngay trên Ứng dụng {NAME_APP}. Với mức lãi suất hấp dẫn
-              lên đến 8.5%/năm đối với kỳ hạn 3 tháng, 8%/năm với kỳ hạn 2 tháng
-              và 7.5% với kỳ hạn 30 ngày.
+            Investors can choose the form of online accumulation to automatically earn profits right on the Application {NAME_APP}. With attractive interest rates up to 8.5%/year for 3-month terms, 8%/year for 2-month terms and 7.5% for 30-day terms.
             </p>
-            <p>• CỘNG ĐỒNG TÍCH HỢP CÙNG TÍNH NĂNG SAO CHÉP GIAO DỊCH</p>
+            <p>• INTEGRATED COMMUNITY WITH COPY TRADING FEATURE</p>
             <p>
-              Không chỉ là App đầu tư chứng khoán, {NAME_APP} còn phát triển
-              tính năng Cộng đồng - nơi dành cho tất cả đối tượng có đam mê, có
-              lý tưởng và có ý định đầu tư chứng khoán. Cộng đồng {NAME_APP} cho
-              phép người dùng chia sẻ, thảo luận và tương tác không giới hạn.
-              Đặc biệt, người dùng có thể thực hiện sao chép giao dịch chứng
-              khoán ngay tại ứng dụng một cách đơn giản và dễ dàng.
+            Not just a stock investment App, {NAME_APP} We also develop the Community feature - a place for all those who are passionate, have ideals and intend to invest in stocks. Community {NAME_APP} allowing users to share, discuss and interact without limits. In particular, users can copy stock transactions right in the application simply and easily.
             </p>
-            <p>• MUA - BÁN CỔ PHIẾU PH N ĐOẠN CHỈ TỪ 10.000Đ</p>
+            <p>• BUY - SELL STOCKS FROM ONLY 10 USD</p>
             <p>
-              {NAME_APP} là App chứng khoán cho phép người dùng thực hiện mua cổ
-              phiếu lô lẻ, đầu tư kiếm tiền với giá chỉ từ 10.000 đồng. Với{" "}
-              {NAME_APP}, bạn có thể bắt đầu hành trình đầu tư tài chính đơn
-              giản và dễ dàng hơn bao giờ hết.
+              {NAME_APP} is a stock App that allows users to buy odd lot stocks, invest and make money with prices starting from only 10,000 VND. With {" "}
+              {NAME_APP}, You can start your financial investment journey simpler and easier than ever.
             </p>
             <p>
-              Không cần phải bỏ số vốn lên đến hàng triệu đồng như sàn chứng
-              khoán Việt Nam, nhà đầu tư online có thể tiết kiệm đến 90% vốn tối
-              thiểu để đầu tư chứng khoán thông qua các cổ phiếu blue chip (cổ
-              phiếu của các công ty lớn, có uy tín và tình hình tài chính vững
-              chắc, giá trị vốn hóa thị trường lớn) ngay tại Ứng dụng {NAME_APP}
+            There is no need to spend up to millions of dong in capital like the Vietnamese stock exchange, online investors can save up to 90% of the minimum capital to invest in stocks through blue chip stocks (stocks of leading companies). large, reputable company with a solid financial situation, large market capitalization) right in the Application {NAME_APP}
               .
             </p>
-            <p>• ĐẦU TƯ VÀO CHỨNG CHỈ QUỸ ETF DỄ DÀNG</p>
+            <p>• INVESTING IN ETF CERTIFICATE IS EASY</p>
             <p>
-              Đầu tư nhanh chóng và dễ dàng vào các Chứng chỉ Quỹ ETF trên TTCK
-              Việt Nam với mức vốn khởi điểm chỉ từ 10.000 đồng.
+            Invest quickly and easily in ETF Fund Certificates on the Vietnam Stock Market with a starting capital of only 10,000 VND.
             </p>
-            <p>• ĐẦU TƯ CHỨNG KHOÁN VÀ GIAO DỊCH CỰC KỲ ĐƠN GIẢN</p>
+            <p>• INVESTING IN STOCKS AND TRADING IS EXTREMELY SIMPLE</p>
             <p>
-              Ứng dụng đầu tư chứng khoán {NAME_APP} có giao diện dễ hiểu, dễ sử
-              dụng, được thiết kế hướng tới trải nghiệm mượt mà và những nhà đầu
-              tư mới.
+            Stock investment application {NAME_APP} has an easy-to-understand, easy-to-use interface, designed with a smooth experience and new investors in mind.
             </p>
             <p>
-              - Mở tài khoản nhanh chóng chỉ với vài thao tác và HOÀN TOÀN MIỄN
-              PHÍ.
+            - Open an account quickly with just a few steps and COMPLETELY FREE.
             </p>
 
             <p>
-              - Giao dịch chứng khoán mọi lúc, mọi nơi với tính năng giao dịch
-              24/7.
+            - Trade stocks anytime, anywhere with 24/7 trading feature.
             </p>
 
             <p>
-              - Đầu tư cổ phiếu theo giá hiện có trên thị trường và cập nhật số
-              dư của bạn ngay lập tức.
+            - Invest in stocks at current market prices and update your balance instantly.
             </p>
 
             <p>
-              - Dễ dàng quản lý danh mục đầu tư chứng khoán với các thông tin và
-              biểu đồ thống kê chi tiết.
+            - Easily manage stock investment portfolio with detailed statistical information and charts.
             </p>
 
-            <p>• HỌC ĐẦU TƯ VÀ CẬP NHẬT TIN TỨC MIỄN PHÍ</p>
+            <p>• LEARN TO INVEST AND UPDATE NEWS FOR FREE</p>
             <p>
-              Nhà đầu tư có thể học chứng khoán và tìm hiểu những kiến ​​thức về
-              tài chính, đầu tư từ cơ bản đến nâng cao HOÀN TOÀN MIỄN PHÍ thông
-              qua tính năng Kiến thức trên App {NAME_APP}. Ngoài ra, bạn còn có
-              thể cập nhật liên tục các tin tức về tài chính và thị trường trên
-              App đầ tư chứng khoán {NAME_APP}.
+            Investors can study stocks and learn financial and investment knowledge from basic to advanced COMPLETELY FREE through the Knowledge feature on the App. {NAME_APP}. In addition, you can continuously update financial and market news on the stock investment App {NAME_APP}.
             </p>
-            <p>• {NAME_APP} LÀ NGƯỜI BẠN ĐỒNG HÀNH ĐÁNG TIN CẬY</p>
+            <p>• {NAME_APP} A TRUSTED COMPANION</p>
             <p>
-              - Thông tin và tài khoản của bạn được bảo mật tuyệt đối nhờ hệ
-              thống bảo vệ mật khẩu, xác thực tài khoản 2 lớp.
+            - Your information and account are absolutely secure thanks to the password protection system and 2-layer account authentication.
             </p>
             <p>
-              - {NAME_APP} thực hiện giao dịch mua, bán chứng khoán qua tài
-              khoản của
-              {NAME_APP} mở tại Công ty CP Chứng khoán VNDirect.
+              - {NAME_APP} Carry out transactions of buying and selling securities through your account
+              {NAME_APP} opened at VNDirect Securities Joint Stock Company.
             </p>
             <p>
-              - {NAME_APP} đã thu hút được nhiều nguồn vốn đầu tư từ các nhà đầu
-              tư lớn trong và ngoài nước: Goodwater Capital, GFC, First Check
-              Ventures, các nhà đầu tư thiên thần của XA Network...
+              - {NAME_APP} has attracted a lot of investment capital from large domestic and foreign investors: Goodwater Capital, GFC, First Check Ventures, angel investors of XA Network...
             </p>
             <p>
-              - {NAME_APP} cũng vinh dự là một trong những ứng dụng đầu tư chứng
-              khoán đầu tiên của Việt Nam tham gia YC W22 Batch. Y Combinator
-              được coi là vườn ươm nổi tiếng nhất dành cho các công ty khởi
-              nghiệp của Mỹ.
+              - {NAME_APP} also honored to be one of the first stock investment applications in Vietnam to participate in YC W22 Batch. Y Combinator is considered the most famous incubator for American startups.
             </p>
             <p>
-              Bạn còn chờ gì mà không Tải và Mở ngay tài khoản {NAME_APP} để
-              trải nghiệm App đầu tư kiếm tiền tiện lợi, đơn giản và an toàn!
-              Với
-              {NAME_APP}, bạn hoàn toàn có thể an tâm chơi chứng khoán cùng
-              những trải nghiệm giao dịch tiên tiến, an toàn.
+            What are you waiting for? Download and Open an account right away {NAME_APP} to experience the convenient, simple and safe money-making investment App! With
+              {NAME_APP}, You can completely feel secure when playing stocks with advanced, safe trading experiences.
             </p>
             <p>
-              Địa chỉ liên hệ: 222 Điện Biên Phủ, Phường Võ Thị Sáu, Quận 3,
-              Thành phố Hồ Chí Minh.
+            107 Cheapside, London, EC2V 6DN, United Kingdom
             </p>
-            <p>Hotline: 1900 633 099</p>
+            <p>Hotline: +44 1229 9896724.</p>
           </div>
           <div className="au">
             <div className="name">
               <h4>{NAME_APP}</h4>
-              <span>Nhà phát triển</span>
+              <span>Developer</span>
             </div>
             <img src="/images/ios/next.svg" alt="phone" />
           </div>
         </section>
         <section className="rating">
           <div className="head">
-            <h3 className="title">Xếp hạng & nhận xét</h3>
-            <span>Xem tất cả</span>
+            <h3 className="title">Ratings & reviews</h3>
+            <span>See all</span>
           </div>
           <div className="star">
             <div className="r">
@@ -446,60 +402,60 @@ export default function Ios() {
                 </span>
                 <span className="c"></span>
               </li>
-              <p className="count">2.533 xếp hạng</p>
+              <p className="count">2.533 ratings</p>
             </ul>
           </div>
           <div className="vote"></div>
         </section>
         <section className="app-inf">
-          <h2>Thông tin</h2>
+          <h2>Information</h2>
           <div className="wrapper">
             <ul className="items">
               <li className="item">
-                <span> Nhà cung cấp </span>
+                <span> Supplier </span>
                 <span> {NAME_APP} COMPANY LIMITED </span>
               </li>
               <li className="item">
-                <span> Kích cỡ </span>
+                <span> Size </span>
                 <span> 208,4 MB </span>
               </li>
               <li className="item">
-                <span> Danh mục </span>
-                <span> Tài chính </span>
+                <span> Category </span>
+                <span> Finance </span>
               </li>
               <li className="item">
-                <span> Tương thích </span>
+                <span> Compatible </span>
                 <span className="arr">
-                  Trên iPhone này
+                On this iPhone
                   <img src="/images/ios/down.svg" alt="photo" />
                 </span>
               </li>
               <li className="item">
-                <span> Ngôn ngữ </span>
-                <span> Tiếng Anh </span>
+                <span> Language </span>
+                <span> English </span>
               </li>
               <li className="item">
-                <span> Tuổi </span>
+                <span> Year old </span>
                 <span className="arr">
                   4+
                   <img src="/images/ios/down.svg" alt="photo" />
                 </span>
               </li>
               <li className="item">
-                <span> Mua In-App </span>
+                <span> Buy In-App </span>
                 <span className="arr">
-                  Có
+                  Yes
                   <img src="/images/ios/down.svg" alt="photo" />
                 </span>
               </li>
               <li className="item">
-                <span> Bản quyền </span>
+                <span> Copyright </span>
                 <span> &copy; {NAME_APP} COMPANY LIMITED </span>
               </li>
               <div className="link">
                 <li className="item">
                   <span>
-                    <Link href="#">Trang web nhà phát triển</Link>
+                    <Link href="#">Developer website</Link>
                   </span>
                   <span>
                     <i className="fa-regular fa-compass"></i>
@@ -507,7 +463,7 @@ export default function Ios() {
                 </li>
                 <li className="item">
                   <span>
-                    <Link href="#">Chính sách quyền riêng tư</Link>
+                    <Link href="#">Privacy policy</Link>
                   </span>
                   <span>
                     <i className="fa-solid fa-hand"></i>
@@ -515,7 +471,7 @@ export default function Ios() {
                 </li>
                 <li className="item">
                   <span>
-                    <Link href="#">Báo cáo sự cố</Link>
+                    <Link href="#">Report a problem</Link>
                   </span>
                   <span>
                     <img src="/images/ios/triangle.svg" alt="icon" />
@@ -527,8 +483,8 @@ export default function Ios() {
         </section>
         <section className="extend">
           <div className="head">
-            <h2>Có thể bạn cũng thích</h2>
-            <span>Xem tất cả</span>
+            <h2>You might also like it</h2>
+            <span>See all</span>
           </div>
           <div className="app-extend">
             <div className="wrapper">
@@ -539,11 +495,11 @@ export default function Ios() {
                       <img src="/images/ios/e1.webp" alt="photo" />
                       <div className="inf">
                         <div className="desc">
-                          <h3>{NAME_APP} - Đầu tư và Tích lũy</h3>
-                          <p>Ứng dụng đầu tư và tích lũy</p>
+                          <h3>{NAME_APP} - Investment and Accumulation</h3>
+                          <p>Investment and accumulation application</p>
                         </div>
                         <Link href="#">
-                          <span className="btnd">Nhận</span>
+                          <span className="btnd">Install</span>
                         </Link>
                       </div>
                     </div>
@@ -551,11 +507,11 @@ export default function Ios() {
                       <img src="/images/ios/e2.webp" alt="photo" />
                       <div className="inf">
                         <div className="desc">
-                          <h3>Tikop - Tích lũy linh hoạt</h3>
-                          <p>Tiết kiệm, tích lũy</p>
+                          <h3>Tikop - Flexible accumulation</h3>
+                          <p>Save and accumulate</p>
                         </div>
                         <Link href="#">
-                          <span className="btnd">Nhận</span>
+                          <span className="btnd">Install</span>
                         </Link>
                       </div>
                     </div>
@@ -565,11 +521,11 @@ export default function Ios() {
                       <img src="/images/ios/e3.webp" alt="photo" />
                       <div className="inf">
                         <div className="desc">
-                          <h3>Entrade X by DNSE: Chứng khoán</h3>
-                          <p>Đầu tư & tài chính thông minh</p>
+                          <h3>Entrade X by DNSE: Stock</h3>
+                          <p>Smart investment & finance</p>
                         </div>
                         <Link href="#">
-                          <span className="btnd">Nhận</span>
+                          <span className="btnd">Install</span>
                         </Link>
                       </div>
                     </div>
@@ -578,10 +534,10 @@ export default function Ios() {
                       <div className="inf">
                         <div className="desc">
                           <h3>KB Fina</h3>
-                          <p>Tư vấn dịch vụ đầu tư</p>
+                          <p>Consulting investment services</p>
                         </div>
                         <Link href="#">
-                          <span className="btnd">Nhận</span>
+                          <span className="btnd">Install</span>
                         </Link>
                       </div>
                     </div>
@@ -591,11 +547,11 @@ export default function Ios() {
                       <img src="/images/ios/e5.webp" alt="photo" />
                       <div className="inf">
                         <div className="desc">
-                          <h3>ONUS: Đầu tư BTC, ETH, BNB</h3>
-                          <p>Tin tưởng bởi 3 triệu người</p>
+                          <h3>ONUS</h3>
+                          <p>Trusted by 3 million people</p>
                         </div>
                         <Link href="#">
-                          <span className="btnd">Nhận</span>
+                          <span className="btnd">Install</span>
                         </Link>
                       </div>
                     </div>
@@ -604,10 +560,10 @@ export default function Ios() {
                       <div className="inf">
                         <div className="desc">
                           <h3>MBS Mobile</h3>
-                          <p>MBSecurities - Chung khoan MB</p>
+                          <p>MBSecurities</p>
                         </div>
                         <Link href="#">
-                          <span className="btnd">Nhận</span>
+                          <span className="btnd">Install</span>
                         </Link>
                       </div>
                     </div>
