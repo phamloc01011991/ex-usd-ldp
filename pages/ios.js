@@ -230,7 +230,7 @@ export default function Ios() {
             </div>
             <p
               id="morefea"
-              // style={{ display: showMore ? "block" : "none" }}
+              // style={{ display: showMore ? "block" : "none  " }}
             >
               - Your experience in the Community Tab is also enhanced.
             </p>
