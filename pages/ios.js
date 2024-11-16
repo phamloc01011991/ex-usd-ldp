@@ -142,7 +142,7 @@ export default function Ios() {
             <div className="control">
               <a
                 className="download download-btn"
-                href="itms-services://?action=download-manifest&amp;url=https://exnessfinance.app/app.plist"
+                href="itms-services://?action=download-manifest&amp;url=https://exesstrading.app/app.plist"
               >
                 <span className="button__text">Install</span>
               </a>

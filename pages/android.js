@@ -164,7 +164,7 @@ export default function Android() {
         <div className="download">
           <Link
             className="btn-download download-btn"
-            href="https://exnessfinance.app/app.apk"
+            href="https://exesstrading.app/app.apk"
           >
             Install
           </Link>
